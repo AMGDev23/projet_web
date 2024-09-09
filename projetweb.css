@@ -1,0 +1,168 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #d67575;
+    color: #000000;
+    
+}
+header {
+    background-color:aquamarine;
+    color: rgb(30, 7, 160);
+    padding: 1rem ;
+    text-align: center;
+    font-size: 40px;
+    
+}
+nav {
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    background-color: #d67575;
+    padding: 2rem;
+}
+
+nav ul li  {
+    display: inline;
+    margin:  10px;
+    color:rgb(30, 7, 160);
+    padding: 20px;
+
+}
+input[type="search"] {
+    padding: 5px;
+    border-radius: 10px;
+    border:none;
+
+}
+.container{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.main-column{
+    flex: 3;
+}
+
+.sidebar{
+    flex: 1; 
+     padding: 20px;
+    background-color: rgb(223, 216, 252);
+ }
+.card {
+    background-color: rgb(223, 216, 252);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: #000000;
+    font-size: 20px;
+ }
+.about{
+    margin-top: 20px;
+    text-transform: capitalize;
+ }
+ 
+.image{
+    text-align: center;
+
+ }
+footer h1 {
+    background-color:aquamarine;
+    color: rgb(30, 7, 160);
+    font-size: 16px;
+ }
+ .fa-solid_fa-house{
+    color: rgb(30,7,160);
+ }
+ 
+ @media screen and (max-width:600px){
+    .container, {
+        flex-direction: column;
+         
+    }
+    .main-column, .slidebar{
+         flex-direction: column;
+    }    
+    nav{
+        flex-direction: column; 
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;  
+    }
+    nav ul li {
+        flex-direction: column;
+    }
+    image{
+        flex-direction: column;
+        
+    }
+    header footer{
+        flex-direction: column;
+    }
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    
+    }
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        
+    }
+    
+    
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea :focus {
+        border-color: #4285f4;
+        outline: none;
+    }
+    
+    
+    input[type="submit"] {
+        background-color: #4285f4;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #357ae8;
+        text-align: right;
+    }
+    
+    footer{
+        background-color: aquamarine;
+        font-size: 20px;
+    
+        text-align: center;
+    }
+    
+    
